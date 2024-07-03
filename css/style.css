@@ -1,0 +1,40 @@
+:root {
+    --red: rgb(233, 81, 81);
+    --green: rgb(14, 185, 14);
+    --blue: rgb(65, 179, 218);
+
+}
+
+
+
+.holder {
+    position: relative;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.holder-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: var(--red);
+    transform: translate(-60px, -60px);
+
+}
+
+.green {
+    background-color: var(--green);
+    transform: translate(60px, 60px);
+}
+
+.blue {
+    background-color: var(--blue);
+    z-index: 2;
+}
